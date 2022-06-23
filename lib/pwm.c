@@ -18,6 +18,7 @@ int initPwmGPIO(int board)
         ret = 0;
         break;
     }
+    case BOARD_NANOPI_S2:
     case BOARD_NANOPI_2: {
         int buf[3] = {97, 77, 78};
         memcpy(pwmGPIO, buf, sizeof(buf));

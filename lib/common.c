@@ -138,6 +138,8 @@ static int getBoardType()
             ret = BOARD_NANOPI_M2;   
         } else if (strncasecmp(info[1], "0001", 4)==0) {
             ret = BOARD_NANOPC_T2;
+        } else if (strncasecmp(info[1], "0002", 4)==0) {
+            ret = BOARD_NANOPI_S2;
         }
     } else if(strncasecmp(info[0], "NANOPI3", 7)==0) {
         if (strncasecmp(info[1], "0007", 4)==0) {

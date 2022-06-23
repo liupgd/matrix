@@ -153,7 +153,7 @@ int testPWM(int board)
     
     Hz = 1000;
     duty = 500;
-    if (board == BOARD_NANOPI_M2 || board == BOARD_NANOPI_2_FIRE || board == BOARD_NANOPI_2)
+    if (board == BOARD_NANOPI_M2 || board == BOARD_NANOPI_2_FIRE || board == BOARD_NANOPI_2|| board == BOARD_NANOPI_S2)
         pwm = 0;
     else 
         return -1;
